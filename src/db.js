@@ -6,5 +6,5 @@ export const pool = createPool({
     user: DB_USER,
     password: DB_PASSWORD,
     port: DB_PORT,
-    database: 'acdb',
+    database: DB_DATABASE,
 });
